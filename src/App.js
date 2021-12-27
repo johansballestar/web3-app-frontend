@@ -157,7 +157,7 @@ const App = () => {
         wavePortalContract.off('NewWave', onNewWave);
       }
     };
-  }, [])
+  }, [checkIfWalletIsConnected, contractABI])
   
   return (
     <div className="mainContainer">
