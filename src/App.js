@@ -168,7 +168,7 @@ const App = () => {
         </div>
     
         <div className="bio">
-          I am burgerboy and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+          i'm burgerboy. Connect your Ethereum wallet and wave at me!
         </div>
     
         <button className="waveButton" onClick={wave}>
