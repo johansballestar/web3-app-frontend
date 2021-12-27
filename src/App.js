@@ -129,6 +129,7 @@ const App = () => {
   };
 
   useEffect(() => {
+    checkIfWalletIsConnected();
     let wavePortalContract;
 
     const onNewWave = (from, timestamp, message) => {
@@ -162,7 +163,8 @@ const App = () => {
     <div className="mainContainer">
       <div className="dataContainer">
         <div className="header">
-          👋 Hey there!
+          <span role="img" aria-label="wave emoji">👋 </span>
+          Hey there!
         </div>
     
         <div className="bio">
